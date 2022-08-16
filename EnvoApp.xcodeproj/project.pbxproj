@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9063385828ABF8880063C564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063385728ABF8880063C564 /* AppDelegate.swift */; };
+		9063385A28ABF8880063C564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063385928ABF8880063C564 /* SceneDelegate.swift */; };
+		9063385C28ABF8880063C564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063385B28ABF8880063C564 /* ViewController.swift */; };
+		9063385F28ABF8880063C564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9063385D28ABF8880063C564 /* Main.storyboard */; };
+		9063386228ABF8880063C564 /* EnvoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9063386028ABF8880063C564 /* EnvoApp.xcdatamodeld */; };
+		9063386428ABF88A0063C564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9063386328ABF88A0063C564 /* Assets.xcassets */; };
+		9063386728ABF88A0063C564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9063386528ABF88A0063C564 /* LaunchScreen.storyboard */; };
+		9063387228ABF88A0063C564 /* EnvoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063387128ABF88A0063C564 /* EnvoAppTests.swift */; };
+		9063387C28ABF88A0063C564 /* EnvoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063387B28ABF88A0063C564 /* EnvoAppUITests.swift */; };
+		9063387E28ABF88A0063C564 /* EnvoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063387D28ABF88A0063C564 /* EnvoAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9063386E28ABF88A0063C564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9063384C28ABF8880063C564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9063385328ABF8880063C564;
+			remoteInfo = EnvoApp;
+		};
+		9063387828ABF88A0063C564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9063384C28ABF8880063C564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9063385328ABF8880063C564;
+			remoteInfo = EnvoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9063385428ABF8880063C564 /* EnvoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnvoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9063385728ABF8880063C564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9063385928ABF8880063C564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9063385B28ABF8880063C564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9063385E28ABF8880063C564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9063386128ABF8880063C564 /* EnvoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnvoApp.xcdatamodel; sourceTree = "<group>"; };
+		9063386328ABF88A0063C564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9063386628ABF88A0063C564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9063386828ABF88A0063C564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9063386D28ABF88A0063C564 /* EnvoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9063387128ABF88A0063C564 /* EnvoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvoAppTests.swift; sourceTree = "<group>"; };
+		9063387728ABF88A0063C564 /* EnvoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9063387B28ABF88A0063C564 /* EnvoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvoAppUITests.swift; sourceTree = "<group>"; };
+		9063387D28ABF88A0063C564 /* EnvoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9063385128ABF8880063C564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9063386A28ABF88A0063C564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9063387428ABF88A0063C564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9063384B28ABF8880063C564 = {
+			isa = PBXGroup;
+			children = (
+				9063385628ABF8880063C564 /* EnvoApp */,
+				9063387028ABF88A0063C564 /* EnvoAppTests */,
+				9063387A28ABF88A0063C564 /* EnvoAppUITests */,
+				9063385528ABF8880063C564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9063385528ABF8880063C564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9063385428ABF8880063C564 /* EnvoApp.app */,
+				9063386D28ABF88A0063C564 /* EnvoAppTests.xctest */,
+				9063387728ABF88A0063C564 /* EnvoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9063385628ABF8880063C564 /* EnvoApp */ = {
+			isa = PBXGroup;
+			children = (
+				9063385728ABF8880063C564 /* AppDelegate.swift */,
+				9063385928ABF8880063C564 /* SceneDelegate.swift */,
+				9063385B28ABF8880063C564 /* ViewController.swift */,
+				9063385D28ABF8880063C564 /* Main.storyboard */,
+				9063386328ABF88A0063C564 /* Assets.xcassets */,
+				9063386528ABF88A0063C564 /* LaunchScreen.storyboard */,
+				9063386828ABF88A0063C564 /* Info.plist */,
+				9063386028ABF8880063C564 /* EnvoApp.xcdatamodeld */,
+			);
+			path = EnvoApp;
+			sourceTree = "<group>";
+		};
+		9063387028ABF88A0063C564 /* EnvoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9063387128ABF88A0063C564 /* EnvoAppTests.swift */,
+			);
+			path = EnvoAppTests;
+			sourceTree = "<group>";
+		};
+		9063387A28ABF88A0063C564 /* EnvoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9063387B28ABF88A0063C564 /* EnvoAppUITests.swift */,
+				9063387D28ABF88A0063C564 /* EnvoAppUITestsLaunchTests.swift */,
+			);
+			path = EnvoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9063385328ABF8880063C564 /* EnvoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9063388128ABF88A0063C564 /* Build configuration list for PBXNativeTarget "EnvoApp" */;
+			buildPhases = (
+				9063385028ABF8880063C564 /* Sources */,
+				9063385128ABF8880063C564 /* Frameworks */,
+				9063385228ABF8880063C564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnvoApp;
+			productName = EnvoApp;
+			productReference = 9063385428ABF8880063C564 /* EnvoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9063386C28ABF88A0063C564 /* EnvoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9063388428ABF88A0063C564 /* Build configuration list for PBXNativeTarget "EnvoAppTests" */;
+			buildPhases = (
+				9063386928ABF88A0063C564 /* Sources */,
+				9063386A28ABF88A0063C564 /* Frameworks */,
+				9063386B28ABF88A0063C564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9063386F28ABF88A0063C564 /* PBXTargetDependency */,
+			);
+			name = EnvoAppTests;
+			productName = EnvoAppTests;
+			productReference = 9063386D28ABF88A0063C564 /* EnvoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9063387628ABF88A0063C564 /* EnvoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9063388728ABF88A0063C564 /* Build configuration list for PBXNativeTarget "EnvoAppUITests" */;
+			buildPhases = (
+				9063387328ABF88A0063C564 /* Sources */,
+				9063387428ABF88A0063C564 /* Frameworks */,
+				9063387528ABF88A0063C564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9063387928ABF88A0063C564 /* PBXTargetDependency */,
+			);
+			name = EnvoAppUITests;
+			productName = EnvoAppUITests;
+			productReference = 9063387728ABF88A0063C564 /* EnvoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9063384C28ABF8880063C564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9063385328ABF8880063C564 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					9063386C28ABF88A0063C564 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9063385328ABF8880063C564;
+					};
+					9063387628ABF88A0063C564 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9063385328ABF8880063C564;
+					};
+				};
+			};
+			buildConfigurationList = 9063384F28ABF8880063C564 /* Build configuration list for PBXProject "EnvoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9063384B28ABF8880063C564;
+			productRefGroup = 9063385528ABF8880063C564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9063385328ABF8880063C564 /* EnvoApp */,
+				9063386C28ABF88A0063C564 /* EnvoAppTests */,
+				9063387628ABF88A0063C564 /* EnvoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9063385228ABF8880063C564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9063386728ABF88A0063C564 /* LaunchScreen.storyboard in Resources */,
+				9063386428ABF88A0063C564 /* Assets.xcassets in Resources */,
+				9063385F28ABF8880063C564 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9063386B28ABF88A0063C564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9063387528ABF88A0063C564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9063385028ABF8880063C564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9063385C28ABF8880063C564 /* ViewController.swift in Sources */,
+				9063386228ABF8880063C564 /* EnvoApp.xcdatamodeld in Sources */,
+				9063385828ABF8880063C564 /* AppDelegate.swift in Sources */,
+				9063385A28ABF8880063C564 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9063386928ABF88A0063C564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9063387228ABF88A0063C564 /* EnvoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9063387328ABF88A0063C564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9063387E28ABF88A0063C564 /* EnvoAppUITestsLaunchTests.swift in Sources */,
+				9063387C28ABF88A0063C564 /* EnvoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9063386F28ABF88A0063C564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9063385328ABF8880063C564 /* EnvoApp */;
+			targetProxy = 9063386E28ABF88A0063C564 /* PBXContainerItemProxy */;
+		};
+		9063387928ABF88A0063C564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9063385328ABF8880063C564 /* EnvoApp */;
+			targetProxy = 9063387828ABF88A0063C564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9063385D28ABF8880063C564 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9063385E28ABF8880063C564 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9063386528ABF88A0063C564 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9063386628ABF88A0063C564 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9063387F28ABF88A0063C564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9063388028ABF88A0063C564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9063388228ABF88A0063C564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GF54NCTX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnvoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Allyson.EnvoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9063388328ABF88A0063C564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GF54NCTX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnvoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Allyson.EnvoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9063388528ABF88A0063C564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GF54NCTX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Allyson.EnvoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnvoApp.app/EnvoApp";
+			};
+			name = Debug;
+		};
+		9063388628ABF88A0063C564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GF54NCTX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Allyson.EnvoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnvoApp.app/EnvoApp";
+			};
+			name = Release;
+		};
+		9063388828ABF88A0063C564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GF54NCTX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Allyson.EnvoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnvoApp;
+			};
+			name = Debug;
+		};
+		9063388928ABF88A0063C564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GF54NCTX9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Allyson.EnvoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnvoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9063384F28ABF8880063C564 /* Build configuration list for PBXProject "EnvoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9063387F28ABF88A0063C564 /* Debug */,
+				9063388028ABF88A0063C564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9063388128ABF88A0063C564 /* Build configuration list for PBXNativeTarget "EnvoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9063388228ABF88A0063C564 /* Debug */,
+				9063388328ABF88A0063C564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9063388428ABF88A0063C564 /* Build configuration list for PBXNativeTarget "EnvoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9063388528ABF88A0063C564 /* Debug */,
+				9063388628ABF88A0063C564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9063388728ABF88A0063C564 /* Build configuration list for PBXNativeTarget "EnvoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9063388828ABF88A0063C564 /* Debug */,
+				9063388928ABF88A0063C564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9063386028ABF8880063C564 /* EnvoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9063386128ABF8880063C564 /* EnvoApp.xcdatamodel */,
+			);
+			currentVersion = 9063386128ABF8880063C564 /* EnvoApp.xcdatamodel */;
+			path = EnvoApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9063384C28ABF8880063C564 /* Project object */;
+}
