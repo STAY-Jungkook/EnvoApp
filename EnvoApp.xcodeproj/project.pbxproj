@@ -17,6 +17,12 @@
 		9063387228ABF88A0063C564 /* EnvoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063387128ABF88A0063C564 /* EnvoAppTests.swift */; };
 		9063387C28ABF88A0063C564 /* EnvoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063387B28ABF88A0063C564 /* EnvoAppUITests.swift */; };
 		9063387E28ABF88A0063C564 /* EnvoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063387D28ABF88A0063C564 /* EnvoAppUITestsLaunchTests.swift */; };
+		9063388B28AD38630063C564 /* IntroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063388A28AD38630063C564 /* IntroTableViewController.swift */; };
+		9063388D28AD38920063C564 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063388C28AD38920063C564 /* HomeTableViewController.swift */; };
+		9063388F28AD39070063C564 /* Intro2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063388E28AD39070063C564 /* Intro2TableViewController.swift */; };
+		9063389128AD78570063C564 /* GameHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063389028AD78570063C564 /* GameHomeTableViewController.swift */; };
+		9063389328AD78660063C564 /* ExtraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063389228AD78660063C564 /* ExtraTableViewController.swift */; };
+		9063389528AE759C0063C564 /* LearnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063389428AE759C0063C564 /* LearnTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		9063387728ABF88A0063C564 /* EnvoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9063387B28ABF88A0063C564 /* EnvoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvoAppUITests.swift; sourceTree = "<group>"; };
 		9063387D28ABF88A0063C564 /* EnvoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9063388A28AD38630063C564 /* IntroTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroTableViewController.swift; sourceTree = "<group>"; };
+		9063388C28AD38920063C564 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		9063388E28AD39070063C564 /* Intro2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro2TableViewController.swift; sourceTree = "<group>"; };
+		9063389028AD78570063C564 /* GameHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHomeTableViewController.swift; sourceTree = "<group>"; };
+		9063389228AD78660063C564 /* ExtraTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraTableViewController.swift; sourceTree = "<group>"; };
+		9063389428AE759C0063C564 /* LearnTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,12 @@
 		9063384B28ABF8880063C564 = {
 			isa = PBXGroup;
 			children = (
+				9063389428AE759C0063C564 /* LearnTableViewController.swift */,
+				9063389228AD78660063C564 /* ExtraTableViewController.swift */,
+				9063389028AD78570063C564 /* GameHomeTableViewController.swift */,
+				9063388E28AD39070063C564 /* Intro2TableViewController.swift */,
+				9063388C28AD38920063C564 /* HomeTableViewController.swift */,
+				9063388A28AD38630063C564 /* IntroTableViewController.swift */,
 				9063385628ABF8880063C564 /* EnvoApp */,
 				9063387028ABF88A0063C564 /* EnvoAppTests */,
 				9063387A28ABF88A0063C564 /* EnvoAppUITests */,
@@ -261,9 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9063388D28AD38920063C564 /* HomeTableViewController.swift in Sources */,
 				9063385C28ABF8880063C564 /* ViewController.swift in Sources */,
+				9063389128AD78570063C564 /* GameHomeTableViewController.swift in Sources */,
+				9063388F28AD39070063C564 /* Intro2TableViewController.swift in Sources */,
+				9063389528AE759C0063C564 /* LearnTableViewController.swift in Sources */,
 				9063386228ABF8880063C564 /* EnvoApp.xcdatamodeld in Sources */,
 				9063385828ABF8880063C564 /* AppDelegate.swift in Sources */,
+				9063389328AD78660063C564 /* ExtraTableViewController.swift in Sources */,
+				9063388B28AD38630063C564 /* IntroTableViewController.swift in Sources */,
 				9063385A28ABF8880063C564 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
