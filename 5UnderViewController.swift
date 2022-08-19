@@ -1,5 +1,5 @@
 //
-//  Intro2ViewController.swift
+//  5UnderViewController.swift
 //  EnvoApp
 //
 //  Created by Allyson Claire Sanchez on 8/18/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Intro2ViewController: UIViewController {
+class _UnderViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

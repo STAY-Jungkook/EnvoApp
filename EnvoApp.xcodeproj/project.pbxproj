@@ -20,9 +20,17 @@
 		906338D828AE93E50063C564 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338D728AE93E50063C564 /* IntroViewController.swift */; };
 		906338DA28AE94C20063C564 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338D928AE94C20063C564 /* HomeViewController.swift */; };
 		906338DC28AE94FD0063C564 /* GameHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338DB28AE94FD0063C564 /* GameHomeViewController.swift */; };
-		906338DE28AE95540063C564 /* Intro2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338DD28AE95540063C564 /* Intro2ViewController.swift */; };
-		906338E028AE957A0063C564 /* ExtraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338DF28AE957A0063C564 /* ExtraViewController.swift */; };
 		906338E228AE95BC0063C564 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338E128AE95BC0063C564 /* LearnViewController.swift */; };
+		906338E428AEAC580063C564 /* ChallegesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338E328AEAC580063C564 /* ChallegesViewController.swift */; };
+		906338E628AF3E280063C564 /* 5UnderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338E528AF3E280063C564 /* 5UnderViewController.swift */; };
+		906338E828AF3E470063C564 /* Under14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338E728AF3E470063C564 /* Under14ViewController.swift */; };
+		906338EA28AF3E800063C564 /* TeenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338E928AF3E800063C564 /* TeenViewController.swift */; };
+		906338EC28AF3E910063C564 /* CollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338EB28AF3E910063C564 /* CollegeViewController.swift */; };
+		906338EE28AF3E9F0063C564 /* AdultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338ED28AF3E9F0063C564 /* AdultViewController.swift */; };
+		906338F028AF3EAA0063C564 /* EasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338EF28AF3EAA0063C564 /* EasyViewController.swift */; };
+		906338F228AF3EBA0063C564 /* CheapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338F128AF3EBA0063C564 /* CheapViewController.swift */; };
+		906338F428AF42F70063C564 /* DriveNewbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338F328AF42F70063C564 /* DriveNewbViewController.swift */; };
+		906338F628AF47880063C564 /* TicTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906338F528AF47880063C564 /* TicTacToeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +68,17 @@
 		906338D728AE93E50063C564 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		906338D928AE94C20063C564 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		906338DB28AE94FD0063C564 /* GameHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHomeViewController.swift; sourceTree = "<group>"; };
-		906338DD28AE95540063C564 /* Intro2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro2ViewController.swift; sourceTree = "<group>"; };
-		906338DF28AE957A0063C564 /* ExtraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraViewController.swift; sourceTree = "<group>"; };
 		906338E128AE95BC0063C564 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		906338E328AEAC580063C564 /* ChallegesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallegesViewController.swift; sourceTree = "<group>"; };
+		906338E528AF3E280063C564 /* 5UnderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5UnderViewController.swift; sourceTree = "<group>"; };
+		906338E728AF3E470063C564 /* Under14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Under14ViewController.swift; sourceTree = "<group>"; };
+		906338E928AF3E800063C564 /* TeenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeenViewController.swift; sourceTree = "<group>"; };
+		906338EB28AF3E910063C564 /* CollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeViewController.swift; sourceTree = "<group>"; };
+		906338ED28AF3E9F0063C564 /* AdultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdultViewController.swift; sourceTree = "<group>"; };
+		906338EF28AF3EAA0063C564 /* EasyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyViewController.swift; sourceTree = "<group>"; };
+		906338F128AF3EBA0063C564 /* CheapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapViewController.swift; sourceTree = "<group>"; };
+		906338F328AF42F70063C564 /* DriveNewbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveNewbViewController.swift; sourceTree = "<group>"; };
+		906338F528AF47880063C564 /* TicTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +109,14 @@
 		9063384B28ABF8880063C564 = {
 			isa = PBXGroup;
 			children = (
+				906338F328AF42F70063C564 /* DriveNewbViewController.swift */,
+				906338F128AF3EBA0063C564 /* CheapViewController.swift */,
+				906338EF28AF3EAA0063C564 /* EasyViewController.swift */,
+				906338ED28AF3E9F0063C564 /* AdultViewController.swift */,
+				906338EB28AF3E910063C564 /* CollegeViewController.swift */,
+				906338E928AF3E800063C564 /* TeenViewController.swift */,
+				906338E728AF3E470063C564 /* Under14ViewController.swift */,
+				906338E528AF3E280063C564 /* 5UnderViewController.swift */,
 				9063385628ABF8880063C564 /* EnvoApp */,
 				9063387028ABF88A0063C564 /* EnvoAppTests */,
 				9063387A28ABF88A0063C564 /* EnvoAppUITests */,
@@ -118,10 +142,10 @@
 				9063385B28ABF8880063C564 /* ViewController.swift */,
 				906338D928AE94C20063C564 /* HomeViewController.swift */,
 				906338D728AE93E50063C564 /* IntroViewController.swift */,
-				906338DD28AE95540063C564 /* Intro2ViewController.swift */,
 				906338E128AE95BC0063C564 /* LearnViewController.swift */,
 				906338DB28AE94FD0063C564 /* GameHomeViewController.swift */,
-				906338DF28AE957A0063C564 /* ExtraViewController.swift */,
+				906338F528AF47880063C564 /* TicTacToeViewController.swift */,
+				906338E328AEAC580063C564 /* ChallegesViewController.swift */,
 				9063385D28ABF8880063C564 /* Main.storyboard */,
 				9063386328ABF88A0063C564 /* Assets.xcassets */,
 				9063386528ABF88A0063C564 /* LaunchScreen.storyboard */,
@@ -279,15 +303,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906338EC28AF3E910063C564 /* CollegeViewController.swift in Sources */,
 				906338DC28AE94FD0063C564 /* GameHomeViewController.swift in Sources */,
 				9063385C28ABF8880063C564 /* ViewController.swift in Sources */,
+				906338F628AF47880063C564 /* TicTacToeViewController.swift in Sources */,
+				906338F228AF3EBA0063C564 /* CheapViewController.swift in Sources */,
+				906338E628AF3E280063C564 /* 5UnderViewController.swift in Sources */,
+				906338F028AF3EAA0063C564 /* EasyViewController.swift in Sources */,
 				906338E228AE95BC0063C564 /* LearnViewController.swift in Sources */,
+				906338E828AF3E470063C564 /* Under14ViewController.swift in Sources */,
+				906338EE28AF3E9F0063C564 /* AdultViewController.swift in Sources */,
+				906338E428AEAC580063C564 /* ChallegesViewController.swift in Sources */,
 				9063386228ABF8880063C564 /* EnvoApp.xcdatamodeld in Sources */,
+				906338F428AF42F70063C564 /* DriveNewbViewController.swift in Sources */,
 				9063385828ABF8880063C564 /* AppDelegate.swift in Sources */,
-				906338E028AE957A0063C564 /* ExtraViewController.swift in Sources */,
 				906338D828AE93E50063C564 /* IntroViewController.swift in Sources */,
-				906338DE28AE95540063C564 /* Intro2ViewController.swift in Sources */,
 				9063385A28ABF8880063C564 /* SceneDelegate.swift in Sources */,
+				906338EA28AF3E800063C564 /* TeenViewController.swift in Sources */,
 				906338DA28AE94C20063C564 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ExtraViewController.swift
+//  ChallegesViewController.swift
 //  EnvoApp
 //
 //  Created by Allyson Claire Sanchez on 8/18/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ExtraViewController: UIViewController {
+class ChallegesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
