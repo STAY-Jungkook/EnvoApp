@@ -103,28 +103,28 @@
         <scene sceneID="LAZ-FI-ZS9">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="vnk-pL-W0s" customClass="LearnTableViewController" customModule="EnvoApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BFn-eZ-PO4">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="BFn-eZ-PO4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Qd-HV-pAO">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Qd-HV-pAO">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cMJ-tB-WSB">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cMJ-tB-WSB">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qwQ-Sf-ZcA">
-                                                <rect key="frame" x="68" y="8" width="278" height="1029"/>
+                                                <rect key="frame" x="68" y="52" width="278" height="1029"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1029" id="bht-bV-QbE"/>
                                                 </constraints>
-                                                <mutableString key="text">So, what is climate change? Climate change refers to long-term shifts in temperatures and weather patterns. Some of these shifts may be natural, but since the 1800s human activities have been the main cause of climate change. Many normal things that people do now have weakened our atmostphere and trap heat. A lot of things we use on a day-to-day basis use gas, coal, and oil which preduce Green House Gas (GHG. Some other things are less obvious, such as the lack of plants, mostly trees. Deforestation plays another big role in climate change. Trees take carbon dioxide and replace it with oxydgen, which we also need to breathe. So many things that people never even think would matter actually make quite a difference. Imagine each little action a second. One second seems like it isn't much, right? However a minute can seem like forever and it is only 60 seconds. So, one peice of paper wasted doesn't seem like a lot but just 60 times later it is a lot. Every action, every single one, can make a difference. This is not to say that you need to watch every little thing you do cause that is just stressful. But you do have to be mindful at some point (reason for Airify). Now that we know the basics of climate change, we will go over air pollution which is a huge problem in so many places to the point where people can't go outside and breathe freash air because there is no freash air there. Some places don't have that to where it is noticeable like many National Parks while other places it is hard or nearly impossible to breathe like many places in China and Las Vagas. Other signs of air pollution are watery eyes, worsening allergies, headaches, dizziness, nausea, poor visibility, smog and many others, none good. Much of this air pollution comes from vehicles, factories and even fires. Air pollution is actually one of the UK's biggest killers, taking from about 28,000 to about 36,000 every year. About 9 million people die from air pollution every year around the world. It may seem pretty impossible to help when reading about it or seeing India or China pictures on it. It seems quite scary but with everyone working together, we can do it. </mutableString>
+                                                <string key="text">So, what is climate change? Climate change refers to long-term shifts in temperatures and weather patterns. Some of these shifts may be natural, but since the 1800s human activities have been the main cause of climate change. Many normal things that people do now have weakened our atmostphere and trap heat. A lot of things we use on a day-to-day basis use gas, coal, and oil which preduce Green House Gas (GHG. Some other things are less obvious, such as the lack of plants, mostly trees. Deforestation plays another big role in climate change. Trees take carbon dioxide and replace it with oxydgen, which we also need to breathe. So many things that people never even think would matter actually make quite a difference. Imagine each little action a second. One second seems like it isn't much, right? However a minute can seem like forever and it is only 60 seconds. So, one peice of paper wasted doesn't seem like a lot but just 60 times later it is a lot. Every action, every single one, can make a difference. This is not to say that you need to watch every little thing you do cause that is just stressful. But you do have to be mindful at some point (reason for Airify). Now that we know the basics of climate change, we will go over air pollution which is a huge problem in so many places to the point where people can't go outside and breathe freash air because there is no freash air there. Some places don't have that to where it is noticeable like many National Parks while other places it is hard or nearly impossible to breathe like many places in China and Las Vagas. Other signs of air pollution are watery eyes, worsening allergies, headaches, dizziness, nausea, poor visibility, smog and many others, none good. Much of this air pollution comes from vehicles, factories and even fires. Air pollution is actually one of the UK's biggest killers, taking from about 28,000 to about 36,000 every year. About 9 million people die from air pollution every year around the world. It may seem pretty impossible to help when reading about it or seeing India or China pictures on it. It seems quite scary but with everyone working together, we can do it. </string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKe-34-AAU">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKe-34-AAU">
                                                 <rect key="frame" x="112" y="1264" width="190" height="74"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="74" id="cbu-TF-P7v"/>
@@ -151,8 +151,11 @@
                                 <constraints>
                                     <constraint firstItem="cMJ-tB-WSB" firstAttribute="top" secondItem="0Qd-HV-pAO" secondAttribute="top" id="3J1-Lo-BCw"/>
                                     <constraint firstItem="cMJ-tB-WSB" firstAttribute="leading" secondItem="0Qd-HV-pAO" secondAttribute="leading" id="4Kl-QW-Vzv"/>
-                                    <constraint firstAttribute="bottom" secondItem="cMJ-tB-WSB" secondAttribute="bottom" id="Ura-LQ-nZM"/>
+                                    <constraint firstItem="cMJ-tB-WSB" firstAttribute="top" secondItem="0Qd-HV-pAO" secondAttribute="top" id="67F-eI-zW6"/>
+                                    <constraint firstAttribute="bottom" secondItem="cMJ-tB-WSB" secondAttribute="bottom" constant="-604" id="NFB-p0-3Yp"/>
                                     <constraint firstAttribute="trailing" secondItem="cMJ-tB-WSB" secondAttribute="trailing" id="fsV-R5-CzN"/>
+                                    <constraint firstItem="cMJ-tB-WSB" firstAttribute="leading" secondItem="0Qd-HV-pAO" secondAttribute="leading" id="i4t-yG-6HH"/>
+                                    <constraint firstAttribute="trailing" secondItem="cMJ-tB-WSB" secondAttribute="trailing" id="lUQ-67-Zfs"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -240,14 +243,80 @@
                     <view key="view" contentMode="scaleToFill" id="AHI-mh-mY1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Remember the 3 Rs ♻️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZe-Cq-qiR">
+                                <rect key="frame" x="42" y="113" width="323" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Ask if you can walk to school 🕖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ng-7P-yJz">
+                                <rect key="frame" x="42" y="191" width="265" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Try to stick to your old things 🧸" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25l-Cj-SNN">
+                                <rect key="frame" x="42" y="266" width="323" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. Eat lots of fruit and veggies 🍎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPB-us-56s">
+                                <rect key="frame" x="42" y="345" width="294" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5. Try not to eat meat that much 🍗" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GI9-3Z-9xU">
+                                <rect key="frame" x="42" y="427" width="271" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ktc-sq-7Ph">
+                                <rect key="frame" x="42" y="483" width="304" height="101"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">6. Try to pass your old things down to your siblings, make your old things into something new (with adult permision and supervision), or donate them 👕</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="HQE-sb-VMf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ktc-sq-7Ph" firstAttribute="leading" secondItem="AHI-mh-mY1" secondAttribute="leadingMargin" constant="22" id="63a-1k-2Ed"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GI9-3Z-9xU" secondAttribute="trailing" constant="81" id="6uy-eR-OlW"/>
+                            <constraint firstItem="iPB-us-56s" firstAttribute="leading" secondItem="AHI-mh-mY1" secondAttribute="leadingMargin" constant="22" id="DS2-7t-ihO"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ktc-sq-7Ph" secondAttribute="bottom" constant="278" id="DbV-pP-JVN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iPB-us-56s" secondAttribute="trailing" constant="58" id="ELU-hV-yd7"/>
+                            <constraint firstItem="GI9-3Z-9xU" firstAttribute="top" secondItem="AHI-mh-mY1" secondAttribute="topMargin" constant="383" id="LxG-Qu-cQH"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="iPB-us-56s" secondAttribute="bottom" constant="496" id="MpZ-Ah-gR7"/>
+                            <constraint firstItem="iZe-Cq-qiR" firstAttribute="leading" secondItem="AHI-mh-mY1" secondAttribute="leadingMargin" constant="22" id="PRX-fh-VdM"/>
+                            <constraint firstItem="25l-Cj-SNN" firstAttribute="leading" secondItem="AHI-mh-mY1" secondAttribute="leadingMargin" constant="22" id="QSe-Hg-xBg"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="iZe-Cq-qiR" secondAttribute="bottom" constant="728" id="T11-3w-5gE"/>
+                            <constraint firstItem="5Ng-7P-yJz" firstAttribute="leading" secondItem="AHI-mh-mY1" secondAttribute="leadingMargin" constant="22" id="Tg3-oq-SCI"/>
+                            <constraint firstItem="iPB-us-56s" firstAttribute="top" secondItem="AHI-mh-mY1" secondAttribute="topMargin" constant="301" id="VVX-Va-r2M"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iZe-Cq-qiR" secondAttribute="trailing" constant="29" id="XkG-ts-c5I"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="25l-Cj-SNN" secondAttribute="trailing" constant="29" id="deh-em-xEK"/>
+                            <constraint firstItem="ktc-sq-7Ph" firstAttribute="top" secondItem="AHI-mh-mY1" secondAttribute="topMargin" constant="439" id="dyH-PW-Gy2"/>
+                            <constraint firstItem="5Ng-7P-yJz" firstAttribute="top" secondItem="AHI-mh-mY1" secondAttribute="topMargin" constant="147" id="eH1-ms-fKw"/>
+                            <constraint firstItem="GI9-3Z-9xU" firstAttribute="leading" secondItem="AHI-mh-mY1" secondAttribute="leadingMargin" constant="22" id="gO7-lu-Zxz"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="25l-Cj-SNN" secondAttribute="bottom" constant="575" id="hBe-xo-8Tk"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="GI9-3Z-9xU" secondAttribute="bottom" constant="414" id="kOY-pQ-Md0"/>
+                            <constraint firstItem="iZe-Cq-qiR" firstAttribute="top" secondItem="AHI-mh-mY1" secondAttribute="topMargin" constant="69" id="pOC-Ma-Re0"/>
+                            <constraint firstItem="25l-Cj-SNN" firstAttribute="top" secondItem="AHI-mh-mY1" secondAttribute="topMargin" constant="222" id="sl5-7L-vub"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="5Ng-7P-yJz" secondAttribute="bottom" constant="650" id="uLl-mW-Ejq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ktc-sq-7Ph" secondAttribute="trailing" constant="48" id="uRT-If-eEV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Ng-7P-yJz" secondAttribute="trailing" constant="87" id="utU-GH-OOs"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kV4-6Z-IS3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZl-bk-OIo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3200" y="70"/>
+            <point key="canvasLocation" x="3200.0000000000005" y="69.642857142857139"/>
         </scene>
         <!--College View Controller-->
         <scene sceneID="i4a-Dn-daB">
@@ -272,6 +341,71 @@
                     <view key="view" contentMode="scaleToFill" id="6nm-y5-Aek">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. buy things local" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpP-b1-kQw">
+                                <rect key="frame" x="20" y="75" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. try not to buy products made in other places" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRR-qB-4kW">
+                                <rect key="frame" x="20" y="128" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5. try to by things with less packaging" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uD9-wQ-aJZ">
+                                <rect key="frame" x="20" y="306" width="336" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6. remember the three Rs " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEY-ZS-gV3">
+                                <rect key="frame" x="20" y="370" width="285" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. use fabric instead of wrapping paper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxx-SM-7cq">
+                                <rect key="frame" x="20" y="188" width="336" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4. use reuseable things like bags for shopping" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPr-UW-rOZ">
+                                <rect key="frame" x="20" y="239" width="362" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reuse" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHG-dH-oLB">
+                                <rect key="frame" x="150" y="571" width="102" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recycle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQf-Bh-6gw">
+                                <rect key="frame" x="205" y="655" width="128" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reduce" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOa-hJ-WJW">
+                                <rect key="frame" x="61" y="502" width="131" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Gmb-gT-zva"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -279,7 +413,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jhb-FF-NIg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3167" y="-583"/>
+            <point key="canvasLocation" x="3166.666666666667" y="-583.25892857142856"/>
         </scene>
         <!--Drive Newb View Controller-->
         <scene sceneID="4Nc-7S-Sac">
@@ -288,6 +422,36 @@
                     <view key="view" contentMode="scaleToFill" id="fR4-z1-Gfa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Don't drive unless you need to " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uz0-3U-MSw">
+                                <rect key="frame" x="20" y="106" width="351" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2.  Reduce. Reuse. Recycle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIj-jp-SSZ">
+                                <rect key="frame" x="26" y="170" width="339" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. Try not to eat much meat " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csb-eU-6kU">
+                                <rect key="frame" x="26" y="242" width="325" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4. Buy things that are made locally" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dk-yM-XdZ">
+                                <rect key="frame" x="26" y="296" width="331" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="M1U-7S-fcx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -295,7 +459,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rem-MN-X3P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3339" y="738"/>
+            <point key="canvasLocation" x="3337.68115942029" y="737.94642857142856"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="Drj-vr-rLj">
@@ -379,6 +543,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Do not waste paper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1O-VZ-UnM">
+                                <rect key="frame" x="69" y="118" width="261" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rhg-Tc-7ZL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -396,6 +567,15 @@
                     <view key="view" contentMode="scaleToFill" id="LpH-EA-8by">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Bike or walk when you can, it saves on gas too" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHu-Kf-bK5">
+                                <rect key="frame" x="20" y="71" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="2f2-3z-i2t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -403,7 +583,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4nK-Fq-t3G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2252" y="-599"/>
+            <point key="canvasLocation" x="2250.7246376811595" y="-599.33035714285711"/>
         </scene>
         <!--Challeges View Controller-->
         <scene sceneID="RhS-LU-eTL">
@@ -627,6 +807,44 @@
                     <view key="view" contentMode="scaleToFill" id="LlM-Aq-kHc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Try to use the paper on both sides " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Zh-c5-dgl">
+                                <rect key="frame" x="48" y="112" width="301" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Don't watse the ink  in the markers and pens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgN-Wy-x38">
+                                <rect key="frame" x="29" y="369" width="356" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. Please don't hurt the trees or plants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cco-lo-ocu">
+                                <rect key="frame" x="57" y="604" width="301" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="KVc-36-v26">
+                                <rect key="frame" x="87" y="420.5" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.14086424780000001" green="0.48628237839999999" blue="0.16969930729999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="book" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="LTi-Dt-faR">
+                                <rect key="frame" x="87" y="185" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemBrownColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sun.min.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hX0-34-91j">
+                                <rect key="frame" x="87" y="658" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Kql-N6-oJh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -634,7 +852,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B4W-eD-xSS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2294" y="79"/>
+            <point key="canvasLocation" x="2292.753623188406" y="78.348214285714278"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -642,8 +860,11 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-08-16 at 11.33.05 AM" width="802" height="596"/>
+        <image name="book" catalog="system" width="128" height="99"/>
         <image name="circles.hexagonpath.fill" catalog="system" width="128" height="112"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="square.2.stack.3d.bottom.fill" catalog="system" width="128" height="118"/>
+        <image name="sun.min.fill" catalog="system" width="128" height="121"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -655,6 +876,12 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
